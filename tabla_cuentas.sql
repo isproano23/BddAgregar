@@ -16,3 +16,10 @@ insert into cuentas(numero_cuenta,cedula,fecha_creacion,saldo)values('1196','152
 insert into cuentas(numero_cuenta,cedula,fecha_creacion,saldo)values('22417','18962','2023/11/24',60)
 insert into cuentas(numero_cuenta,cedula,fecha_creacion,saldo)values('22987','19636','2025/04/26',150)
 select*from cuentas
+select numero_cuenta , saldo
+from cuentas
+
+select *from cuentas where fecha_creacion
+
+between '26/11/2025' and  '26/08/2025'
+

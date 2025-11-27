@@ -16,3 +16,12 @@ select*from productos
 insert into productos(codigo,nombre,descripcion,stock)values('19','Diego','cuadro',125)
 insert into productos(codigo,nombre,descripcion,stock)values('20','Dennis','sala',5)
 insert into productos(codigo,nombre,descripcion,stock)values('21','Samuel','libros',100)
+
+
+
+select *from productos
+
+select *from productos where nombre like 'Q%'
+select*from productos where descripcion='null'
+select *from productos where precio BETWEEN '2' AND '3'
+

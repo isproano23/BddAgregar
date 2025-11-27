@@ -1,3 +1,4 @@
+
 create table estudiantes(
  cedula varchar(10) not null , 
  nombre varchar(50) not null,
@@ -23,3 +24,8 @@ insert into estudiantes (cedula,nombre,apellido,email,fecha_Nacimiento)values
 insert into estudiantes (cedula,nombre,apellido,email,fecha_Nacimiento)values
 ('17256693','Maria','Lopez','lopez38@gmail.com','2011/09/11')
 select *from estudiantes
+select nombre,cedula
+from estudiantes
+select nombre,cedula from estudiantes
+select nombre from estudiantes where cedula like '17%'
+select *from estudiantes where nombre like 'A%'
