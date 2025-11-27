@@ -25,3 +25,5 @@ between '26/11/2025' and  '26/08/2025'
 
 update cuentas set saldo='10'
 where cedula like '17%'
+
+delete from cuentas where cedula like '10%'

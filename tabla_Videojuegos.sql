@@ -20,3 +20,5 @@ insert  into videojuegos(codigo,nombre,descripcion,valoracion)values
 select*from videojuegos
 
 update videojuegos set descripcion='Mejor puntuado'where valoracion >9
+
+delete from videojuegos where valoracion <5
