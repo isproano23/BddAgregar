@@ -23,3 +23,5 @@ select *from cuentas where fecha_creacion
 
 between '26/11/2025' and  '26/08/2025'
 
+update cuentas set saldo='10'
+where cedula like '17%'

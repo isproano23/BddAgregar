@@ -18,3 +18,5 @@ insert  into videojuegos(codigo,nombre,descripcion,valoracion)values
 insert  into videojuegos(codigo,nombre,descripcion,valoracion)values
 ('210',' The Voice. ','juego musical','84')
 select*from videojuegos
+
+update videojuegos set descripcion='Mejor puntuado'where valoracion >9
