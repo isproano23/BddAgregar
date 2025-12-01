@@ -27,3 +27,23 @@ update cuentas set saldo='10'
 where cedula like '17%'
 
 delete from cuentas where cedula like '10%'
+
+
+select numero_cuenta , saldo from cuentas where saldo > '100' and saldo < '1000'
+
+
+select numero_cuenta from cuentas where  fecha_creacion ='01/12/2025' and   fecha_creacion= '03/10/2024'
+
+
+select numero_cuenta from cuentas where saldo= '0' and cedula like '%2'
+
+
+
+
+
+
+
+
+
+
+

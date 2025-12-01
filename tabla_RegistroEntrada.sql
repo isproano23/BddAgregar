@@ -30,3 +30,13 @@ create table registroEntrada(
 
  update registroEntrada set cedula_empleado='082345679' 
  where fecha between '24/08/2014' and '04/08/2017'
+
+
+
+select codigo_registro from registroEntrada where  fecha = '20/09/2013'  or cedula_empleado like '17'
+select  codigo_registro from registroEntrada where  fecha like '04/08/2017'   and cedula_empleado like '17%' 
+and  hora = '8:00' and hora ='12:00'
+
+
+
+ 

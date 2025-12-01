@@ -1,3 +1,4 @@
+
 create table videojuegos(
   codigo int not null,
   nombre varchar(100) not null,
